@@ -1,13 +1,50 @@
+
+/* tela */
 *{
     margin: 0;
     padding: 0  ;
+    background-color: #E0AFA0;
 }
-body {
-   background-color: #E09F9F;
-   
-   
-}
+.section2 {
+    width: 100%;
+    height: 600px;
+    display: block;
+    background-color:#22201e;
+    border: 1px solid black;
 
+}
+.divFoto {
+    width: 100%;
+    margin:auto;
+    display: block;
+}
+h1::after {
+    content:'';
+    width: 200px;
+    height: 10px;
+    background-color: #22201e;
+    display: block;
+    margin: 30px auto;
+    border-radius: 30%;
+    
+}
+/* links */
+.links {
+    float: left;
+    width: 50%;
+    height: 400px;
+    background-color: #22201e;
+    padding-top: 20px;
+    
+}
+.button {
+    width: 100px;
+    margin: auto;
+    background-color: #22201e;
+}
+#ajustemargem {
+    margin-left: 225px;
+}
 a:link, a:visited {
     background-color: #E09F9F;
     color:#22201e;
@@ -15,18 +52,27 @@ a:link, a:visited {
     text-align: center;
     text-decoration: none;
     font-weight: 700;
-    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
     margin-top: 40px;
     border-radius: 2%;
+    display: inline-block;
 }
 a:hover, a:active {
     background-color: #8A817C;
     color:#F4F3EE
 }
+/*imagens  */
+.minhafoto {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
 
    
+  /*títulos e textos  */
    
-.cabecalho h1 {
+h1 {
     color: #22201e;
     font-family: 'Courier New', Courier, monospace;
     font-size: 70px;
@@ -34,93 +80,46 @@ a:hover, a:active {
     margin-top: 200px;
     margin-bottom: 10px;
 }
-
-h1::after {
-        content:'';
-        width: 200px;
-        height: 10px;
-        background-color: #22201e;
-        display: block;
-        margin: 30px auto;
-        border-radius: 30%;
-        
+h2 {
+    color: #E09F9F;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    text-align: center;
+    background-color:#22201e;
+    margin-top: 20px;
+    padding: 10px;
+    
 }
-
-.cabecalho p {
-    position: absolute;
-    left:600px;
-    top: 850px;
+section p {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
     font-size: large;
-    width: 450px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     line-height: 40px;
     letter-spacing: 5px;
-    margin-top: 60px;
 }
-.minhafoto {
-    margin-top: 40px;
-    position: absolute;
-    left: 600px;
-    border-radius: 50%;
-   
-}
-.portfolio {
-    position:absolute;
-    top: 1200px;
-    width: 100%;
-    height: 800px;
-    background-color: #463F3A;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 35px;
-    line-height: 40px;
-    letter-spacing: 5px;
-    text-align: center;
+
+.textoDiv {
+    background-color:#22201e;
     color: #F4F3EE;
 }
-.portfolio h2 {
-    margin-top: 100px;
-}
-.projetos {
-    display: inline-block;
-    margin-top: 80px;
-    width: 300px;
-    text-align: left;
-    font-size: smaller;
-    padding: 50px;
-    margin:100px 150px;
-}
+
+/* navegação/icones */
 
 ion-icon {
     font-size: 80px;
     
 }    
-.navBar {
 
-height: 500px;
-margin-top: 1680px;
-background-color: #8A817C;
-
-
-}
-
-.navBar a {
-    display: inline-flex;
-     width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-
-
-
-}
 .icon {
    
-    max-width: 500px;
+    width: 400px;
     margin:auto;
-    margin-top: 150px;
+    margin-top: 50px;
+    
 }
 .icon p {
     padding: 30px;
@@ -133,5 +132,25 @@ background-color: #8A817C;
     margin: auto;
     margin-top: 100px;
    
+}
+.navBar {
+
+height: 300px;
+background-color: #E0AFA0;
+
+
+}
+
+.navBar a {
+    display: inline-block;
+     width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 0px;
+    background-color: #E0AFA0;
+    
+
+
+
 }
 
